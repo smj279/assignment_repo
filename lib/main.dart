@@ -158,6 +158,8 @@ class BuyNowPage extends StatelessWidget {
               fontWeight: FontWeight.bold,
               letterSpacing: 1.0,
                 color: Colors.red,
+                fontFamily: 'RobotoSlab-Medium',
+
         ),
             ),
             Row(
