@@ -80,7 +80,7 @@ class ProductDetailsPage extends StatelessWidget {
                     fontSize: 18.0,
                     color: Colors.yellow,
                     fontFamily: 'Cinzel-Medium',
-                    // fontWeight: FontWeight.bold,
+                     fontWeight: FontWeight.bold,
                   ),
                 ),
                 Text(
@@ -89,7 +89,7 @@ class ProductDetailsPage extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 19.0,
                     color: Colors.yellow,
-                    // fontFamily: 'Cinzel-Medium',
+                     fontFamily: 'Cinzel-Medium',
                   ),
                 ),
                 Text(
@@ -99,7 +99,7 @@ class ProductDetailsPage extends StatelessWidget {
                     fontSize: 19.0,
                     color: Colors.yellow,
                     fontFamily: 'Cinzel-Medium',
-                    //fontWeight: FontWeight.bold,
+                    fontWeight: FontWeight.bold,
                   ),
                 ),
                 Text(
@@ -108,7 +108,7 @@ class ProductDetailsPage extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 19.0,
                     color: Colors.yellow,
-                    //fontFamily: 'Cinzel-Medium',
+                    fontFamily: 'Cinzel-Medium',
                   ),
                 ),
               ],
