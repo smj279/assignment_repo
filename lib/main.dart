@@ -80,7 +80,7 @@ class ProductDetailsPage extends StatelessWidget {
                 Text(
                   '   →45.7 Megapixels      FX Format    ',
                   style: TextStyle(
-                    fontSize: 18.0,
+                    fontSize: 19.0,
                     color: Colors.red,
 
                   ),
@@ -88,7 +88,7 @@ class ProductDetailsPage extends StatelessWidget {
                 Text('     '
                     '→4K UHD3840 x 2160   ',
                   style: TextStyle(
-                    fontSize: 18.0,
+                    fontSize: 19.0,
                     color: Colors.red,
 
                   ),
@@ -97,7 +97,7 @@ class ProductDetailsPage extends StatelessWidget {
                   '→7 FPS Continuous Shooting'
                     '             ',
                   style: TextStyle(
-                    fontSize: 18.0,
+                    fontSize: 19.0,
                     color: Colors.red,
 
                   ),
@@ -105,7 +105,7 @@ class ProductDetailsPage extends StatelessWidget {
                 Text('     '
                     '  → 64-25,600 ISO (Expandable to 102,400) ',
                   style: TextStyle(
-                    fontSize: 18.0,
+                    fontSize: 19.0,
                     color: Colors.red,
 
                   ),
@@ -114,7 +114,7 @@ class ProductDetailsPage extends StatelessWidget {
         ),
 
 
-            SizedBox(height: 30),
+            SizedBox(height: 35),
 
             ElevatedButton(
 
