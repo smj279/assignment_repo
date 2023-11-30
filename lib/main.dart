@@ -80,8 +80,10 @@ class ProductDetailsPage extends StatelessWidget {
                 Text(
                   ' →45.7 Megapixels      FX Format    ',
                   style: TextStyle(
-                    fontSize: 19.0,
-                    color: Colors.red,
+                    fontSize: 18.0,
+                    color: Colors.yellow,
+                    fontFamily: 'Cinzel-Medium',
+                    fontWeight: FontWeight.bold,
 
                   ),
                 ),
@@ -89,7 +91,10 @@ class ProductDetailsPage extends StatelessWidget {
                     '  →4K UHD3840 x 2160   ',
                   style: TextStyle(
                     fontSize: 19.0,
-                    color: Colors.red,
+                    color: Colors.yellow,
+                    fontFamily: 'Cinzel-Medium',
+
+
 
                   ),
                 ),
@@ -98,7 +103,10 @@ class ProductDetailsPage extends StatelessWidget {
                     '             ',
                   style: TextStyle(
                     fontSize: 19.0,
-                    color: Colors.red,
+                    color: Colors.yellow,
+                    fontFamily: 'Cinzel-Medium',
+                    fontWeight: FontWeight.bold,
+
 
                   ),
                 ),
@@ -106,7 +114,10 @@ class ProductDetailsPage extends StatelessWidget {
                     '  → 64-25,600 ISO (Expandable to 102,400) ',
                   style: TextStyle(
                     fontSize: 19.0,
-                    color: Colors.red,
+                    color: Colors.yellow,
+                    fontFamily: 'Cinzel-Medium',
+
+
 
                   ),
                 ),

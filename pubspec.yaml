@@ -79,6 +79,10 @@ flutter:
    - family: BlackOpsOne-Regular
      fonts:
      - asset: fonts/BlackOpsOne-Regular.ttf
+   - family: Cinzel-Medium
+     fonts:
+      - asset: fonts/Cinzel-Medium.ttf
+
 
   #
   # For details regarding fonts from package dependencies,
