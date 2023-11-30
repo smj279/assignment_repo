@@ -62,7 +62,7 @@ class ProductDetailsPage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.start,
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
-                Image.network(height:280,width: 350,'https://eavf3cou74b.exactdn.com/wp-content/uploads/2023/06/28103020/Best-Cameras-for-Professional-Photography-6.jpg?strip=all&lossy=1&resize=1000%2C542&ssl=1'),
+                Image.network(height:250,width: 320,'https://eavf3cou74b.exactdn.com/wp-content/uploads/2023/06/28103020/Best-Cameras-for-Professional-Photography-6.jpg?strip=all&lossy=1&resize=1000%2C542&ssl=1'),
         Text(
             'price - ৳ 208,000',
             style: TextStyle(
@@ -78,7 +78,7 @@ class ProductDetailsPage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  '   →45.7 Megapixels      FX Format    ',
+                  ' →45.7 Megapixels      FX Format    ',
                   style: TextStyle(
                     fontSize: 19.0,
                     color: Colors.red,
@@ -86,7 +86,7 @@ class ProductDetailsPage extends StatelessWidget {
                   ),
                 ),
                 Text('     '
-                    '→4K UHD3840 x 2160   ',
+                    '  →4K UHD3840 x 2160   ',
                   style: TextStyle(
                     fontSize: 19.0,
                     color: Colors.red,
@@ -94,7 +94,7 @@ class ProductDetailsPage extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  '→7 FPS Continuous Shooting'
+                  ' →7 FPS Continuous Shooting'
                     '             ',
                   style: TextStyle(
                     fontSize: 19.0,
@@ -135,6 +135,5 @@ class ProductDetailsPage extends StatelessWidget {
     );
   }
 }
-
 
 
