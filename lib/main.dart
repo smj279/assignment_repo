@@ -137,3 +137,77 @@ class ProductDetailsPage extends StatelessWidget {
 }
 
 
+class BuyNowPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Buy Now'),
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Text('Choose Payment Method'),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                PaymentButton(imagePath: 'bkash_image_path'),
+                PaymentButton(imagePath: 'rocket_image_path'),
+                PaymentButton(imagePath: 'visa_image_path'),
+                PaymentButton(imagePath: 'mastercard_image_path'),
+                PaymentButton(imagePath: 'amex_image_path'),
+              ],
+            ),
+            SizedBox(height: 20),
+            DropdownButton<String>(
+              items: ['Option 1', 'Option 2', 'Option 3']
+                  .map((String value) {
+                return DropdownMenuItem<String>(
+                  value: value,
+                  child: Text(value),
+                );
+              }).toList(),
+              onChanged: (String? newValue) {
+                // Do something with the selected value
+              },
+              hint: Text('Select an option'),
+            ),
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              child: Text('Go Back'),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class PaymentButton extends StatelessWidget {
+  final String imagePath;
+
+  const PaymentButton({Key? key, required this.imagePath}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: Image.network(
+        imagePath,
+        height: 50,
+        width: 50,
+      ),
+    );
+  }
+}
+
+
+
+
+
+
