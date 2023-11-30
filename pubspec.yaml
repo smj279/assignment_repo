@@ -79,9 +79,11 @@ flutter:
    - family: BlackOpsOne-Regular
      fonts:
      - asset: fonts/BlackOpsOne-Regular.ttf
+
    - family: RobotoSlab-Medium
      fonts:
       - asset: fonts/RobotoSlab-Medium.ttf
+
    - family: Cinzel-Medium
      fonts:
       - asset: fonts/Cinzel-Medium.ttf
